@@ -1,0 +1,25 @@
+.sub1{
+    background: darkred;
+    text-align: center;
+    color: navajowhite;
+}
+.lorem1{
+    background: silver;
+    padding: 10px 10px;
+}
+.lorem2{
+    background: deepskyblue;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.square1{
+    width: 300px;
+    height: 300px;
+    background: forestgreen;
+}
+.square2{
+    width: 300px;
+    height: 300px;
+    background: blueviolet;
+    border-radius: 10%;
+}
