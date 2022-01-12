@@ -1,0 +1,41 @@
+body {
+    background: black;
+}
+
+.buttons {
+    box-sizing: border-box;
+    /*font-size: 20pt;*/
+    background: black;
+
+    width: 200px;
+    height: 50px;
+
+
+    border-radius: 80px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#yn1 {
+    color: orange;
+    border: 5px solid orange;
+    margin: 300px 300px 25px;
+}
+
+#yn2 {
+    color: #ff033e;
+    border: 5px solid #ff033e;
+    margin: 25px 300px;
+}
+
+#yn3 {
+    color: #00FFFF;
+    border: 5px solid #00FFFF;
+    margin: 25px 300px;
+}
+
+#yn4 {
+    color: #FF00FF;
+    border: 5px solid #FF00FF;
+    margin: 25px 300px 300px;
+}
