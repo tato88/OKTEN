@@ -1,0 +1,73 @@
+.target{
+    font-size: 50pt;
+    background: orange;
+    width: 300px;
+    height: 300px;
+
+    box-sizing: border-box;
+    padding: 115px;
+    border: 3px solid gray;
+    box-shadow: black 40px 40px 0px 0px;
+}
+.target1{
+    font-size: 50pt;
+    background: orange;
+    width: 300px;
+    height: 300px;
+
+    box-sizing: border-box;
+    padding: 115px;
+    border: 3px solid gray;
+    box-shadow: black 40px 40px 20px 10px;
+
+}
+.target2{
+    font-size: 50pt;
+    background: orange;
+    width: 300px;
+    height: 300px;
+
+    box-sizing: border-box;
+    padding: 115px;
+    border: 3px solid gray;
+    box-shadow: black 60px 60px 20px 10px;
+
+}
+.target3{
+    font-size: 50pt;
+    background: orange;
+    width: 300px;
+    height: 300px;
+
+    box-sizing: border-box;
+    padding: 115px;
+    border: 3px solid gray;
+    box-shadow: rgb(128, 128, 134) 60px 60px 20px 10px;
+
+}
+.target4{
+    font-size: 50pt;
+    background: orange;
+    width: 300px;
+    height: 300px;
+
+    box-sizing: border-box;
+    padding: 115px;
+    border: 3px solid gray;
+    border-radius: 5%;
+    box-shadow: black 60px 60px 20px 10px;
+
+}
+.target5{
+    font-size: 50pt;
+    background: orange;
+    width: 300px;
+    height: 300px;
+
+    box-sizing: border-box;
+    padding: 115px;
+    border: 3px solid gray;
+    border-radius: 5%;
+    box-shadow: rgba(128, 128, 134) 60px 60px 20px 10px;
+
+}
