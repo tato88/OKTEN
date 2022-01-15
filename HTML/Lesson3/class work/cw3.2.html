@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .sector{
+            text-align: center;
+            background: silver;
+            flex-grow: 1;
+            margin: 10px;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+        }
+        .bcdefgh{
+            display: flex;
+            flex-grow: 4;
+        }
+        .bcdefg{
+            display: grid;
+            grid-template-columns: 150px 150px 150px ;
+        }
+
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="sector">A</div>
+    <div class="bcdefgh">
+        <div class=" bcdefg">
+            <div class="sector">B</div>
+            <div class="sector">C</div>
+            <div class="sector">D</div>
+            <div class="sector">E</div>
+            <div class="sector">F</div>
+            <div class="sector">G</div>
+        </div>
+        <div class="sector">H</div>
+    </div>
+</div>
+</body>
+</html>
+

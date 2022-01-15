@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .sector{
+            color: white;
+            background: cornflowerblue;
+            margin: 10px;
+            text-align: center;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+        }
+        .paneltop,.panelbot{
+            display: flex;
+
+            flex-grow: 6;
+        }
+        .paneltop>div{
+            flex-grow: 3;
+            height: 200px;
+        }
+        .panelbot>div{
+            flex-grow: 3;
+            height: 75px;
+        }
+        .k{
+            height: 100px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="paneltop">
+        <div class="sector">Home</div>
+        <div class="sector">About</div>
+    </div>
+    <div class="sector k">Kabobs</div>
+    <div class="panelbot">
+        <div class="sector">Shishkabobs</div>
+        <div class="sector">BBQ kabobs</div>
+        <div class="sector" >Summer kabobs</div>
+    </div>
+</div>
+</body>
+</html>

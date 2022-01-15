@@ -3,8 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        .blocks{
+            background: silver;
+            flex-grow: 1;
+            text-align: center;
+            margin: 5px;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+        }
+        .cde{
+            display: flex;
+            flex-direction: row;
+            flex-grow: 3;
+        }
+        .bcde{
+            flex-grow: 3;
+        }
+        .f{
+            flex-grow: 1;
+        }
+        .bcdef{
+            display: flex;
+
+        }
+    </style>
 </head>
 <body>
-
+<div class="main">
+    <div class="blocks">A</div>
+    <div class="bcdef">
+        <div class="bcde">
+            <div class="blocks">B</div>
+            <div class="cde">
+                <div class="blocks">C</div>
+                <div class="blocks">D</div>
+                <div class="blocks">E</div>
+            </div>
+        </div>
+        <div class="blocks f">F</div>
+    </div>
+</div>
 </body>
 </html>
