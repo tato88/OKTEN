@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .all {
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+        }
+
+        #header, #footer {
+            height: 300px;
+            background: #757553;
+        }
+
+        .content {
+            display: flex;
+        }
+        #header,#footer,.content{
+            margin: 10px;
+        }
+
+        #menu {
+            max-width: 300px;
+            background: hotpink;
+            min-height: 500px;
+            flex-grow: 1;
+            margin-right: 10px;
+        }
+
+        .post {
+            background: cornflowerblue;
+            min-height: 500px;
+            border-bottom: 2px solid black;
+            margin-bottom: 10px;
+
+        }
+        .lenta{
+            flex-grow: 2;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+
+    </style>
+
+</head>
+<body>
+<div class="all">
+    <div id="header"></div>
+    <div class="content">
+        <div id="menu"></div>
+        <div class="lenta">
+            <div class="post"></div>
+            <div class="post"></div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</div>
+
+</body>
+</html>

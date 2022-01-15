@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .general {
+            display: block;
+            flex-direction: column;
+        }
+
+        .body {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+
+        }
+        .header,.nav,.footer,.main,.aside{
+            text-align: center;
+            color: white;
+            box-sizing: border-box;
+        }
+
+        .header {
+            background: cornflowerblue;
+            padding: 10px;
+
+        }
+        .nav,.footer{
+            padding: 5px;
+        }
+
+        .nav {
+            background: darkblue;
+        }
+        .footer{
+            background: lightblue;
+        }
+        .main{
+            flex-grow: 2;
+            background: #00FFFF;
+        }
+        .aside{
+            flex-grow: 1;
+            background: darkslateblue;
+        }
+        .main,.aside{
+            min-height: 300px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="general">
+    <div class="header"><h1>Header</h1></div>
+    <div class="nav"><h2>Nav</h2></div>
+    <div class="body">
+        <div class="main"><h2>Main</h2></div>
+        <div class="aside"><h2>Aside</h2></div>
+    </div>
+    <div class="footer"><h2>Footer</h2></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .blocka{
+            height: 400px;
+            margin: 10px;
+        }
+        .blockline{
+            margin: 10px;
+            display: flex;
+
+
+        }
+        .blockb,.blockc{
+            background: silver;
+            height: 400px;
+
+        }
+        .blockb{
+            flex-grow: 2;
+            margin-right: 10px;
+        }
+        .blockc{
+            flex-grow: 1;
+        }
+        .texts{
+            background: silver;
+            text-align: center;
+            padding-top: 180px;
+            font-size: 40px;
+        }
+
+    </style>
+
+</head>
+<body>
+<div class="blocka texts"><h1>A</h1></div>
+<div class="blockline">
+     <div class="blockb texts">B</div>
+     <div class="blockc texts">C</div>
+</div>
+
+</body>
+</html>
