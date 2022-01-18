@@ -1,0 +1,45 @@
+.h100 {
+    height: 100px;
+}
+
+.w100 {
+    width: 100px;
+}
+
+.w120 {
+    width: 120px;
+}
+
+.bg-slv {
+    background: silver;
+    margin: 10px;
+}
+
+.bg-blue {
+    background: #102b3f;
+    margin: 10px;
+}
+
+.blocks {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+
+}
+.dis-col{
+    flex-direction: column;
+}
+
+.bor-r-10 {
+    border-radius: 10px;
+}
+
+.bor-r-50p {
+    border-radius: 50%;
+}
+.bor-2-sol-blue{
+    border: 2px solid deepskyblue;
+}
+.col-wht{
+    color:wheat;
+}
