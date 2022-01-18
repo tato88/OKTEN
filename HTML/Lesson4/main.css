@@ -26,7 +26,8 @@
     box-sizing: border-box;
 
 }
-.dis-col{
+
+.dis-col {
     flex-direction: column;
 }
 
@@ -37,9 +38,27 @@
 .bor-r-50p {
     border-radius: 50%;
 }
-.bor-2-sol-blue{
+
+.bor-2-sol-blue {
     border: 2px solid deepskyblue;
 }
-.col-wht{
-    color:wheat;
+
+.col-wht {
+    color: wheat;
+}
+
+.card1 {
+    height: 100px;
+    width: 120px;
+    background: #102b3f;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card2 {
+    width: 100px;
+    height: 100px;
+    background: silver;
+    margin: 10px;
+    border-radius: 50%;
 }
