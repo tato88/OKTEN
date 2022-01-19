@@ -1,0 +1,48 @@
+.block {
+    display: flex;
+    justify-content: center;
+    background: silver;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.h200 {
+    height: 200px;
+}
+.h400 {
+    height: 400px;
+}
+
+
+p {
+    margin: 80px;
+}
+
+.blocks {
+    display: flex;
+    flex-grow: 4;
+}
+
+#bf {
+    flex-grow: 1;
+}
+
+.column {
+    flex-direction: column;
+}
+.fgrow3{
+    flex-grow: 3;
+}
+.fgrow1{
+    flex-grow: 1;
+}
+.jus-con-sp-btw{
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+    .adapt{
+        flex-direction: column;
+    }
+
+}

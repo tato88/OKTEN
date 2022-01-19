@@ -1,0 +1,34 @@
+.block {
+    display: flex;
+    background: silver;
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.h200 {
+    height: 200px;
+}
+
+.h600 {
+    height: 600px;
+    flex-grow: 1
+}
+
+p {
+    margin-top: 100px;
+}
+
+.blocks {
+    display: flex;
+    flex-grow: 2;
+}
+
+@media screen and (max-width: 400px) {
+    .blocks{
+        flex-direction: column;
+    }
+    #bc{
+        height: 200px;
+    }
+}
