@@ -35,7 +35,10 @@
 .column {
     flex-direction: column;
 }
-
+.hidd-img{
+    width: 0;
+    height: 0;
+}
 .owf-hidd{
     overflow: hidden;
     overflow: auto;
@@ -52,7 +55,9 @@
 .fgrow2 {
     flex-grow: 2;
 }
-
+.w0{
+    width: 0;
+}
 .h100 {
     height: 100px;
 }
@@ -73,4 +78,35 @@
 
 .pxl {
     margin: 80px;
+}
+
+@media screen and (max-width: 800px) and (min-width: 600px) {
+    .seg4{
+        flex-direction: column;
+    }
+    .seg56 {
+        flex-direction: column;
+    }
+    .hidd-img{
+        width: 220px;
+        height: 220px;
+    }
+
+
+}
+
+@media screen and (max-width: 599px) and (min-width: 0) {
+    .seg4{
+        flex-direction: column;
+    }
+    .seg56{
+        flex-direction: column;
+    }
+    .seg5 {
+        flex-direction: column;
+    }
+    .hidd-img{
+        width: 100%;
+        height: 220px;
+    }
 }
