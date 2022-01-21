@@ -1,6 +1,9 @@
 .container {
     display: flex;
 }
+.flex-d-row-rev{
+    flex-direction: row-reverse;
+}
 
 .block {
     box-sizing: border-box;
@@ -9,6 +12,9 @@
     margin: 10px;
     text-align: center;
     font-size: 25px;
+}
+.h400{
+    height: 400px;
 }
 
 .column {
@@ -35,28 +41,32 @@
     height: 40px;
 }
 
-@media screen and (max-width: 500px) {
-    .seg2 {
+.seg6789-tools{
+    justify-content: start;
+    align-items: end;
+}
+.seg3-pos{
+    position: relative;
+    bottom: 300px;
+}
+
+@media screen and (max-width: 700px) {
+    .seg2{
         flex-direction: column;
     }
-
-    .seg89 {
+    .seg3-pos{
+        bottom: 0;
+    }
+    .seg6789{
+        flex-direction: column;
+    }
+    .seg67{
+        flex-direction: column;
+    }
+    .seg89{
         flex-direction: row;
     }
-
-    #b89 {
-        flex-grow: 4;
-    }
-
-    .seg6789 {
-        flex-direction: column;
-    }
-
-    .seg67 {
-        flex-direction: column;
-    }
     #b6{
-        height: 200px;
     }
 
 }

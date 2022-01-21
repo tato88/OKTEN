@@ -8,8 +8,6 @@
     text-align: center;
     margin: 10px;
 }
-.ds-in{
-}
 
 .block4c {
     background: silver;
@@ -41,6 +39,10 @@
 }
 .owf-hidd{
     overflow: auto;
+}
+
+.bg-slv-lite{
+    background: #dadada;
 }
 
 .fgrow4 {
