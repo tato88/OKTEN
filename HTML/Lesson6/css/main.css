@@ -185,7 +185,7 @@ body {
     margin-left: 145px;
 }
 
-.cards1 {
+.cards1, .cards2, .segment5 {
     display: flex;
 }
 
@@ -242,11 +242,6 @@ body {
     padding-bottom: 82px;
 }
 
-.cards2 {
-    display: flex;
-    flex-direction: row;
-}
-
 .card2 {
     width: 309px;
     padding-bottom: 89px;
@@ -267,10 +262,6 @@ body {
 
 .pad-seg4 {
     padding-left: 145px;
-}
-
-.segment5 {
-    display: flex;
 }
 
 .txt-style5-1 {
