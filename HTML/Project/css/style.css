@@ -1,0 +1,197 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+:root {
+    --orange-color: #f9c602
+}
+
+.fgrow1 {
+    flex-grow: 1;
+}
+
+.fgrow6 {
+    flex-grow: 6;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 32px;
+}
+
+.txt_algn_just {
+    text-align: justify;
+}
+
+.icon_logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.txt_size_12_16 {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.txt_size_16_24 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.txt_size_22_32 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.txt_size_34_40 {
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40px;
+}
+
+.txt_size_42_48 {
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 48px;
+}
+
+.txt_size_60_64 {
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 64px;
+}
+
+.link_bar_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 481px;
+}
+
+.link_header {
+    display: flex;
+}
+
+.img_navbut {
+    margin-left: 8px;
+}
+
+.buts_nav_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.black_but_header {
+    background: #0B2330;
+    border: 1px solid #0B2330;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 54px;
+    width: 163px;
+    color: #FFF;
+    padding: 14px 29px 16px;
+    cursor: pointer;
+}
+
+.buts_nav_header > div {
+    padding-right: 24px;
+}
+
+.segment1 {
+    display: flex;
+    padding-left: 147px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 886px;
+}
+
+.card1 {
+    padding-top: 154px;
+    width: 436px;
+}
+
+.w430 {
+    width: 300px;
+}
+
+.orange_but {
+    border: 1px solid var(--orange-color);
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: var(--orange-color);
+    height: 54px;
+
+}
+
+.w163 {
+    width: 163px;
+}
+
+.w156 {
+    width: 156px;
+    border: 1px solid #0B2330;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 54px;
+}
+
+.orange-box {
+    display: flex;
+}
+
+.img_casper {
+    position: relative;
+    bottom: 751px;
+    right: 102px;
+}
+
+.img_orang_bg {
+    display: block;
+}
+
+.col_gap_16 {
+    display: flex;
+    column-gap: 16px;
+}
+
+.card1 > div {
+    padding-bottom: 32px;
+}
+
+.segment2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 149px;
+    padding-bottom: 192px;
+}
+
+.w547_pb_59 {
+    width: 546px;
+    padding-bottom: 59px;
+}
+
+.logos_bicycle_pad {
+    padding-bottom: 192px;
+}
+
+.w711_pb_57 {
+    width: 711px;
+    padding-bottom: 57px;
+}
+
+.pad_bot_113 {
+    padding-bottom: 113px;
+}
+
+.orng_pad_top_txt {
+    padding-top: 14px;
+}
