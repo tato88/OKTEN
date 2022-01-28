@@ -20,10 +20,6 @@
     padding: 15px 32px;
 }
 
-.txt_algn_just {
-    text-align: justify;
-}
-
 .column {
     display: flex;
     flex-direction: column;
@@ -522,3 +518,9 @@
 .w126 {
     width: 126px;
 }
+
+.link_bar_header_mobile {
+    display: none;
+}
+
+
