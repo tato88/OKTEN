@@ -337,6 +337,17 @@
     height: 960px;
     background: var(--blednii_color);
 }
+.accordion{
+    height: 484px;
+}
+.accordion-item {
+    width: 588px;
+    background: var(--blednii_color);
+    border-top: 1px solid red;
+}
+.accordion-button.collapsed{
+    background: var(--blednii_color);
+}
 
 .pad_seg6 {
     padding: 96px 121px;

@@ -1,7 +1,7 @@
 @media screen and (max-width: 480px) {
     .page_style {
-        max-width: 479px;
-        /*overflow: hidden;*/
+        max-width: 471px;
+        overflow: hidden;
     }
 
     .header {
